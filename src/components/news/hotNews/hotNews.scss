@@ -1,0 +1,21 @@
+.hotNews-container {
+  display: flex;
+  height: 126px;
+  width: 352px;
+  border-radius: 10px;
+  background-color: #FF0010;
+  margin-left: 90px;
+  .hotNews-content {
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    .hotNews__text {
+      max-width: 97.98px;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 31px;
+      margin-right: 30px;
+      color: white;
+    }
+  }
+}
